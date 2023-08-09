@@ -16,7 +16,7 @@ for (i in colnames(data)) {
 # creating Bar chart 
 
 library(ggplot2)
-install.packages('ggthemes')
+install.packages("ggthemes")
 library(ggthemes)
 percent_yes_t<- data.frame(t(percent_yes))
 
